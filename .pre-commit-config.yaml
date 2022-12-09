@@ -19,15 +19,15 @@ repos:
   #   rev: v1.8.1
   #   hooks:
   #     - id: typos
-  - repo: local
-    hooks:
-      - id: cargo-fmt
-        name: cargo fmt
-        description: Format files with rustfmt.
-        entry: bash -c 'cargo fmt -- --check'
-        language: rust
-        files: \.rs$
-        args: []
+  # - repo: local
+  #   hooks:
+      # - id: cargo-fmt
+      #   name: cargo fmt
+      #   description: Format files with rustfmt.
+      #   entry: bash -c 'cargo fmt -- --check'
+      #   language: rust
+      #   files: \.rs$
+      #   args: []
       # - id: cargo-deny
       #   name: cargo deny check
       #   description: Check cargo dependencies
